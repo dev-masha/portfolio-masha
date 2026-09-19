@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const Header = () => {
   return(
     <div id='top' className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 pt-28'>
-      {/* Profile Logo / Image */}
+    
       <motion.div initial={{scale:0}} whileInView={{scale:1}} className='w-28 h-28 bg-gradient-to-br from-pink-200 to-blue-200 rounded-full flex items-center justify-center text-3xl font-bold'>
         M
       </motion.div>
